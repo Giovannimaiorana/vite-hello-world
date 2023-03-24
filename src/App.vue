@@ -1,21 +1,14 @@
-
-<template>
-  <title\>
-</template>
-
-
-
-
 <script>
-import title from './components/title.vue';
+import titolo from './components/titolo.vue'
 export default {
   components: {
-    title,
+    titolo,
   }
 }
 </script>
 
-
-
+<template>
+  <titolo />
+</template>
 
 <style></style>
